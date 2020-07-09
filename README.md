@@ -8,6 +8,24 @@ The observation space consists of `33` variables corresponding to position, rota
 
 ### Environment Setup
 
+#### 0. Installing Dependencies
+
+**_Before running the code cell below_**, change the `file_name` parameter to match the location of the Unity environment that you downloaded.
+
+- **Mac**: `"path/to/Reacher.app"`
+- **Windows** (x86): `"path/to/Reacher_Windows_x86/Reacher.exe"`
+- **Windows** (x86_64): `"path/to/Reacher_Windows_x86_64/Reacher.exe"`
+- **Linux** (x86): `"path/to/Reacher_Linux/Reacher.x86"`
+- **Linux** (x86_64): `"path/to/Reacher_Linux/Reacher.x86_64"`
+- **Linux** (x86, headless): `"path/to/Reacher_Linux_NoVis/Reacher.x86"`
+- **Linux** (x86_64, headless): `"path/to/Reacher_Linux_NoVis/Reacher.x86_64"`
+
+For instance, if you are using a Mac, then you downloaded `Reacher.app`.  If this file is in the same folder as the notebook, then the line below should appear as follows:
+```
+env = UnityEnvironment(file_name="Reacher.app")
+```
+In this notebook, the **Directory** structure below is used:
+
 #### 1. Directory Structure
 
 Project assume the following home directory:   /home/ubuntu
